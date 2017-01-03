@@ -1,0 +1,112 @@
+body{
+
+	/*Image is retrieved from URL http://img02.deviantart.net/0cf4/i/2005/153/d/c/green_minimalistic_background_by_77matt77.jpg*/
+    background-image: url("http://img02.deviantart.net/0cf4/i/2005/153/d/c/green_minimalistic_background_by_77matt77.jpg");
+    background-position: 100% 100%;
+}
+p
+{
+    text-align: left;
+}
+[class*="col-"] {/* Utilised this part of code which is already mentioned in http://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image3*/
+    float: left;
+    padding: 15px;
+
+}
+label{
+color: black;
+}
+#search{
+	padding: 1em;
+	
+}
+h1{
+    text-align: center;
+    font-family: Castellar;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 15px;
+}
+h2{
+    text-align: center;
+    font-family: Castellar;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 15px;
+
+}
+h3{
+    text-align: center;
+    font-family: Castellar;
+    font-size: 15px;
+}
+@media only screen and (min-width: 768px) {
+    
+    .col-1 {width: 8%;}
+    .col-2 {width: 16%;}
+    .col-4 {width: 33%;}
+    .col-7 {width: 58%;}
+     
+}
+
+ul { /* Utilised this part of code which is already mentioned in http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_fixed*/
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+
+}
+#form{
+  	color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+ .col-3 {width: 22%; 
+ 		height: 100%; 
+ 		text-align: left;}
+
+li {
+    float: left;
+    border-right: 1px solid #F5F5F5;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 93px;
+    
+}
+
+li a:hover 
+{
+    background-color: #616161;
+}
+form
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 130px;
+    text-decoration: none;
+
+}
+.active{
+    background-color: #2F00FF;
+}
+
+th{
+    text-align: left;
+}
+td{
+    text-align: left;
+}
+footer
+{	
+	font-size: 15px;
+}
